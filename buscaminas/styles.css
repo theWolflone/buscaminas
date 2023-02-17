@@ -1,0 +1,173 @@
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #57b163;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(12, 116, 117, 1) 90%
+  );
+  background-size: cover;
+}
+
+.main {
+  width: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+}
+
+.header > h1 {
+  width: 20%;
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  background-color: #c5c1c1;
+  border-radius: 8888px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 4px 4px 2.6px;
+  color: #2c3539;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.buttons button {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  background-color: #3b82f6;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 20px 20px;
+  border-radius: 8888px;
+  border: solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.2) 4px 4px 2.6px;
+}
+
+.buttons button:hover {
+  background-color: #2563eb;
+}
+
+.buttons button:disabled {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  border-radius: 8888px;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.containerJuego {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2rem;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Contador banderas */
+
+.containerJuego > h2 {
+  margin-bottom: 0.5rem;
+}
+
+#numBanderas {
+  color: #224429;
+  font-weight: bold;
+}
+
+.juego {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(153, 152, 152);
+  border-radius: 0.1rem;
+}
+
+.juego div {
+  height: 2rem;
+  width: 2rem;
+  box-sizing: border-box;
+  border: 1px solid rgb(35, 35, 36);
+  border-radius: 0.1rem;
+  color: #1c1f20;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.marked {
+  background-color: lightslategray;
+  line-height: 4rem;
+  font-size: 14px;
+}
+
+.bandera {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.back-red {
+  background-color: red;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.back-green {
+  background-color: green;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.resultadoJuego {
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+.instrucciones {
+  text-align: justify;
+  width: 22%;
+  margin: auto;
+  border: 1px solid transparent;
+  padding: 1.8rem;
+  border-radius: 1rem;
+  font-size: 1.3vw;
+  background-color: #c5c1c1;
+  box-shadow: rgba(0, 0, 0, 0.2) 4px 4px 2.6px;
+}
+
+.containerBack {
+  width: 50%;
+  margin: auto;
+  background-color: #c5c1c1;
+  box-shadow: rgba(0, 0, 0, 0.2) 4px 4px 2.6px;
+  border-radius: 1rem;
+  padding-bottom: 1.9rem;
+}
+
+#containerJuego h2{
+      color: #2C3539;
+}
